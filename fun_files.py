@@ -1,12 +1,12 @@
 # This is a program that lets me experiment with file stuff
 
 import os
-os.chdir('C:/Users/pwheeler')
+os.chdir('C:/Users/pwheeler/udacity-git-course/udacity-working-with-files')
 
 # print(os.listdir('C:/Users/pwheeler/Pictures'))
 # os.mkdir('organized')
 # os.rename('C:/Users/pwheeler/ACHE.jpg','C:/Users/pwheeler/Pictures/ACHE.jpg')
-# print (os.getcwd())
+print(os.getcwd())
 
 
 # def extract_place (a):
@@ -26,11 +26,18 @@ os.chdir('C:/Users/pwheeler')
 #     print (position)
 #     print (places)
 
-def extract_place (a):
+def extract_place(a):
     return a.split("_")[0:]
 
-def make_place_dir (a):
+
+def make_place_dir(a):
     for i in a:
         os.mkdir(i)
 
-print (extract_place("2018-06-06_MountainView_16:20:00.jpg"))
+
+print(extract_place("2018-06-06_MountainView_16:20:00.jpg"))
+
+# readme = open("README.me")
+# contents = readme.read()
+# print(contents)
+# readme.close()
