@@ -1,0 +1,8 @@
+Clean Program
+
+# Working With Files
+
+This is my project for Udacity Working With Files Course
+
+I am also using this file to test the program that checks for nasty words like [}>+|., ?<+:`[, /`}.).$||, ;|`\ and ^)`^: 
+This :|.> program will help avoid a \^~@(`[|;&. .<-#_ it!
